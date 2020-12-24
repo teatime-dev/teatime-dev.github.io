@@ -7,8 +7,17 @@
     animation-name: spin;
     animation-duration: 5000ms;
     animation-iteration-count: infinite;
-    animation-timing-function: linear; 
-  }
+    animation-timing-function: linear;
+    margin: auto;
+    width: 20%;
+}
+
+#water {
+    animation-name: stretch;
+    animation-duration: 3000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function:ease;
+}
   
 @keyframes spin {
     from {
@@ -18,4 +27,10 @@
     to {
         transform: rotate(360deg);
     }
+}
+
+@keyframes stretch {
+    0%      {width:80px;}
+    50%     {width:300px;}
+    100%    {width:80px;}
 }
