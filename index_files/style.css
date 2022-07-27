@@ -34,3 +34,7 @@
     50%     {width:300px;}
     100%    {width:80px;}
 }
+
+body {
+    /* overflow-y:hidden */
+}
